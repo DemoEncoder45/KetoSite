@@ -1,0 +1,35 @@
+/*
+    The width is at 100 so that it can go to the
+    end of the page.
+*/
+
+body {
+    background-color: grey;
+}
+.main-header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*We can make height be 100% because it will make it so the logo will stretch to the top of its container*/
+.header-logo{
+    width: fit-content;
+    height: 100%;
+    
+}
+
+/*This is so the image has a fixed height*/
+.header-logo img {
+    height: 60px;
+}
+
+.header-nav {
+    width: 100px;
+    height: 100%;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
